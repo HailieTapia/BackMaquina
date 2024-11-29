@@ -1,9 +1,10 @@
+
 #Variables de entorno para configuracion de base de datos
 MONGO_URI=mongodb+srv://filograficosdev:2hq4MxTCYFJ2CNfZ@filograficos.kdlj6.mongodb.net/
 DB_NAME=dbFilograficos
 PORT=3000
 #configuracion de los cors permitidos
-CORS_WHITELIST=https://192.168.0.*,https://www.filograficos-designs.com,https://192.168.0.105,https://localhost/,http://127.0.0.1:4200,http://localhost:4200,http://localhost:3000,http://127.0.0.1:3000,.vercel.app,https://filo-five.vercel.app/
+CORS_WHITELIST=https://192.168.163.*,https://www.filograficos-designs2.com,https://192.168.163.71,https://localhost/,http://127.0.0.1:4200,http://localhost:4200,http://localhost:3000,http://127.0.0.1:3000,.vercel.app,https://filo-five.vercel.app/
 #token secreto para el uso de jwt
 JWT_SECRET=j6@9A!sM8PqfX4Dg8zjC2B&d1R!N
 
@@ -23,7 +24,7 @@ SMTP_REJECT_UNAUTHORIZED=false
 #Clave para validar un recaptcha en el login
 RECAPTCHA_SECRET_KEY=6Lck9V8qAAAAAO4bvwqX_M2lSr_CtNZbex99KrZX
 
-NODE_ENV=development
+NODE_ENV=production
 
 BASE_URL=http://localhost:3000
 
